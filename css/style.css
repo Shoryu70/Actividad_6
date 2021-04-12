@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2rem;
+}
+
+main {
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+body {
+    background-color: #014188;
+}
+
+.opciones .items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.opciones .items .item {
+    width: 30%;
+    margin-top: 5rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.opciones .items .item img {
+    width: 30%;
+    margin-bottom: 2rem;
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 50%;
+}
+
+.opciones .items .item h1 {
+    font-size: 1.5rem;
+    color: white;
+    margin: 0;
+}
+
+.opciones .items .item a {
+    color: white;
+}
+
+.opciones .items .item p {
+    margin: 1rem 0;
+}
+
+.casos {
+    margin-top: 5rem;
+    background-color: #053365;
+    padding: 2rem 3rem;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.casos h1 {
+    color: white;
+    margin: 0;
+}
+
+.casos h2 {
+    color: #10BF82;
+    margin: 0;
+}
+
+.casos p {
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.casos .boton {
+    background-color: #0E6ACF;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+.casos .boton:hover {
+    opacity: .7;
+}
